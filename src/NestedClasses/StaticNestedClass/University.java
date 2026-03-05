@@ -18,7 +18,7 @@ public class University {
     }
 
     public static void main(String[] args) {
-        Department department = new Department("Mech", 2);
+        University.Department department = new University.Department("Mech", 2);
         department.displayInfo();
     }
 }
